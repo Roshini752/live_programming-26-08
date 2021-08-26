@@ -1,13 +1,14 @@
 #include<stdio.h>
-int multiple_value(int *a, int *b, int *c)
+int multiple_value(int *a, int *b)
 {
-    *a=9;
-    *b=8;  
-    *c=78;
+    *a=*a+*b;
+    *b=*a-*b;
+    *a=*a-*b;
 }
 int main()
 {
-    int a,b,c;
-    multiple_value(&a,&b,&c);
-    printf("a is %d\nb is %d\nc is %d\n",a,b,c);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    multiple_value(&a,&b);
+    printf("a is %d\nb is %d\n",a,b);
 }
