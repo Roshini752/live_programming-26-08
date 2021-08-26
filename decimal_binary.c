@@ -4,7 +4,7 @@ int main()
 {
 	int a[31],rem,n,i=0,j;
 	printf("enter the n value\n");
-	scanf("%d",&n);
+	scanf("%d",&n); 
 	while(n!=0)
 	{
 	rem = n & 1;
