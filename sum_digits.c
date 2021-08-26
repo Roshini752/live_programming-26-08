@@ -13,7 +13,7 @@ int main()
 {
     int n;
     printf("enter the n value\n");
-    scanf("%d",&n);
+    scanf("%d",&n);   
     int sum = recursion(n);
    /* while(n!=0)
     {
