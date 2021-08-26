@@ -22,5 +22,5 @@ int main()
 	}
     a[j++]='\0';
     printf("%s\n",a);
-}
+}  
 
