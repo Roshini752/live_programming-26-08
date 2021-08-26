@@ -15,7 +15,7 @@ int main()
 	else
 	{
 	count0++;
-	}
+	} 
 	}
 	printf("ones=%d\n",count1);
 	printf("zeros=%d\n",count0);
