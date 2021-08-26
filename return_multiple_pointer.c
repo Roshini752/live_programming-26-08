@@ -2,7 +2,7 @@
 int multiple_value(int *a, int *b, int *c)
 {
     *a=9;
-    *b=8;
+    *b=8;  
     *c=78;
 }
 int main()
