@@ -3,7 +3,9 @@
 #include<string.h>
 int main()
 {
-	char str[]="character";
+	char str[20];
+    printf("enter a string");
+    gets(str);
 	char ch;
 	int freq,l1,i,j=0;
 	printf("enter the character\n");
@@ -22,5 +24,5 @@ int main()
 	}
     a[j++]='\0';
     printf("%s\n",a);
-}  
+}
 
